@@ -1,20 +1,82 @@
-# Projeto de Gestão de Funcionários
+📋 Sistema de Gestão de Funcionários
+Este é um projeto Java simples para gerenciar funcionários de uma empresa, com diversas funcionalidades de relatórios e análises.
 
-## Descrição
-Sistema Java para gerenciamento de funcionários com diversas funcionalidades de análise e relatórios.
+📝 Funcionalidades
+✅ Cadastro de funcionários com nome, data de nascimento, salário
 
-## Funcionalidades
-- Cadastro e remoção de funcionários
-- Aplicação de aumentos salariais
-- Relatórios diversos (aniversariantes, maior idade, etc.)
-- Cálculos salariais e totais
+✅ Remoção de funcionários específicos
 
-## Como executar
-1. Clone o projeto
-2. Compile as classes: `javac *.java`
-3. Execute: `java Principal`
+✅ Aplicação de aumento salarial
 
-## Estrutura do projeto
-- `Pessoa.java`: Classe base com dados pessoais
-- `Funcionario.java`: Classe que estende Pessoa com dados profissionais
-- `Principal.java`: Classe principal com todas as funcionalidades
+✅ Relatórios diversos:
+
+Listagem completa de funcionários
+
+Aniversariantes por mês
+
+Funcionário mais velho
+
+Ordenação alfabética
+
+Cálculo de salários em salários mínimos
+
+🛠️ Tecnologias Utilizadas
+Java SE
+
+BigDecimal para cálculos precisos
+
+LocalDate para manipulação de datas
+
+Collections para armazenamento e manipulação de dados
+
+📋 Pré-requisitos
+Java JDK 8 ou superior instalado
+
+Terminal ou prompt de comando
+
+🚀 Como Executar
+Salve o código em um arquivo chamado Main.java
+
+Abra o terminal/prompt de comando e navegue até a pasta onde salvou o arquivo
+
+Compile o programa com o comando:
+
+javac Main2.java
+Execute o programa com o comando:
+
+java Main2
+📊 Estrutura do Código
+O projeto contém duas classes internas:
+
+👤 Classe Pessoa
+Atributos: nome e data de nascimento
+
+👨‍💼 Classe Funcionario (estende Pessoa)
+Atributos adicionais: salário e função
+
+Método para aplicar aumento salarial
+
+📋 Funcionalidades Implementadas
+Inserção de funcionários conforme tabela fornecida
+
+Remoção do funcionário "João"
+
+Impressão formatada de dados:
+
+Datas no formato dd/mm/aaaa
+
+Valores numéricos com separador de milhar (ponto) e decimal (vírgula)
+
+Aumento salarial de 10% para todos os funcionários
+
+Relatório de aniversariantes dos meses 10 e 12
+
+Identificação do funcionário mais velho
+
+Ordenação alfabética dos funcionários
+
+Cálculo do total dos salários
+
+Conversão para salários mínimos (considerando R$ 1212,00)
+
+⚠️ Nota: Este é um projeto demonstrativo para fins de avaliação técnica.
