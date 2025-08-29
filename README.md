@@ -2,6 +2,7 @@
 Este é um projeto Java simples para gerenciar funcionários de uma empresa, com diversas funcionalidades de relatórios e análises.
 
 📝 Funcionalidades
+
 ✅ Cadastro de funcionários com nome, data de nascimento, salário
 
 ✅ Remoção de funcionários específicos
